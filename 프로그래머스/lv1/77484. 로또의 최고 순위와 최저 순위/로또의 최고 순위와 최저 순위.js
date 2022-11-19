@@ -14,7 +14,7 @@ function solution(lottos, win_nums) {
             }       
         }
     
-    max = min + countZero;
+    let max = min + countZero;
     
     result = [rankArr[max] , rankArr[min]]
     return result;
