@@ -10,7 +10,7 @@ function solution(s, n) {
             continue;
         } // 공백 처리
         let textArr = upper.includes(text) ? upper : lower;
-        // 대문자화한 어쩌고에 어쩌고가 포함돼있다면? 대문자, 아니면 소문자
+        // 대문자화 배열에 텍스트가 포함돼있다면? 대문자 문자열 리턴, 아니면 소문자 문자열 리턴
         let index = textArr.indexOf(text) + n;
         // 텍스트 인덱스를 구한 뒤에 + n << 인덱스를 n만큼 밀어내는 거
         if(index >= textArr.length) index -= textArr.length;
