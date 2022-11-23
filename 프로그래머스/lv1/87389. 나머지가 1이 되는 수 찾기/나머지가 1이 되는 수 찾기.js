@@ -5,6 +5,5 @@ function solution(n) {
             return answer = i;
         }
     }
-
     return answer;
 }
